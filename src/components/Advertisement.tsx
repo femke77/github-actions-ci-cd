@@ -1,8 +1,8 @@
 interface AdvertisementProps {
-  companyName: string;
-  productDescription: string;
-  price: string;
-};
+  companyName: string
+  productDescription: string
+  price: string
+}
 
 function Advertisement(props: AdvertisementProps) {
   return (
